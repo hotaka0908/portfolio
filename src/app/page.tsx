@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <Projects />
       <Achievements />
       <Skills />
-      <Projects />
       <Contact />
     </>
   );
