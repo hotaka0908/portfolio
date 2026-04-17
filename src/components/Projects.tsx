@@ -1,24 +1,10 @@
 const projects = [
   {
-    title: "Project 1",
+    title: "CopiChat",
     description:
-      "プロジェクトの説明が入ります。使用した技術や達成した成果について記載します。",
-    tags: ["React", "TypeScript", "Tailwind"],
-    link: "#",
-  },
-  {
-    title: "Project 2",
-    description:
-      "プロジェクトの説明が入ります。使用した技術や達成した成果について記載します。",
-    tags: ["Next.js", "Node.js", "PostgreSQL"],
-    link: "#",
-  },
-  {
-    title: "Project 3",
-    description:
-      "プロジェクトの説明が入ります。使用した技術や達成した成果について記載します。",
-    tags: ["Python", "Docker", "AWS"],
-    link: "#",
+      "あの人としゃべれるチャットアプリ。iOSアプリとしてApp Storeで公開中。",
+    tags: ["iOS", "Swift"],
+    link: "https://apps.apple.com/jp/app/copichat/id6754622028",
   },
 ];
 
@@ -33,6 +19,8 @@ export default function Projects() {
             <a
               key={index}
               href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="block group p-6 border border-[var(--border)] rounded-xl hover:border-[var(--accent)] transition-colors"
             >
               <h3 className="text-xl font-semibold mb-2 group-hover:text-[var(--accent)] transition-colors">
