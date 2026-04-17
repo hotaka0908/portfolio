@@ -1,15 +1,19 @@
 const skills = [
   {
-    category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    category: "AI",
+    items: ["OpenAI API", "Claude API", "Gemini API", "Voice AI"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Python", "PostgreSQL", "REST API"],
+    category: "Hardware",
+    items: ["Raspberry Pi", "M5Stack", "IoT", "Electronics"],
   },
   {
-    category: "Tools",
-    items: ["Git", "Docker", "VS Code", "Figma"],
+    category: "Software",
+    items: ["Python", "TypeScript", "Swift", "C++"],
+  },
+  {
+    category: "Web / Mobile",
+    items: ["Next.js", "React", "iOS", "Tailwind CSS"],
   },
 ];
 
