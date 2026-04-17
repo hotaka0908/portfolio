@@ -35,23 +35,26 @@ export default function Projects() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="block group p-6 border border-[var(--border)] rounded-xl hover:border-[var(--accent)] transition-colors"
+              className="block group p-6 border border-[var(--border)] rounded-xl relative overflow-hidden transition-all duration-300 hover:border-[var(--accent)] hover:shadow-lg"
             >
-              <h3 className="text-xl font-semibold mb-2 group-hover:text-[var(--accent)] transition-colors">
-                {project.title}
-              </h3>
-              <p className="text-[var(--muted)] mb-4 leading-relaxed">
-                {project.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1 text-sm bg-foreground/5 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
+              <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/10 via-[var(--accent)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="relative z-10">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-[var(--accent)] transition-colors">
+                  {project.title}
+                </h3>
+                <p className="text-[var(--muted)] mb-4 leading-relaxed">
+                  {project.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {project.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-3 py-1 text-sm bg-foreground/5 rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </a>
           ))}
