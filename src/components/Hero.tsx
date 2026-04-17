@@ -11,8 +11,11 @@ export default function Hero() {
         <p className="text-xl md:text-2xl text-[var(--muted)] mb-6">
           船橋 穂天
         </p>
-        <p className="text-lg text-[var(--muted)] max-w-xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg text-[var(--muted)] max-w-xl mx-auto mb-2 leading-relaxed">
           CEO of Universal Pine Inc.
+        </p>
+        <p className="text-sm text-[var(--muted)] mb-10">
+          Tokyo, Japan
         </p>
         <div className="flex items-center justify-center gap-4">
           <a
