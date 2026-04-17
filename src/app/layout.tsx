@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hotaka Funabashi | Portfolio",
+  title: "Hotaka Funahashi | Portfolio",
   description: "船橋穂天のポートフォリオサイト - ソフトウェアエンジニア",
 };
 

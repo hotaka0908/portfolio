@@ -6,7 +6,7 @@ export default function Hero() {
           Hello, I&apos;m
         </p>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
-          Hotaka Funabashi
+          Hotaka Funahashi
         </h1>
         <p className="text-xl md:text-2xl text-[var(--muted)] mb-6">
           船橋 穂天
