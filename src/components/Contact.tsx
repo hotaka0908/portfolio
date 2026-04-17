@@ -9,7 +9,7 @@ export default function Contact() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:ho@universalpine.com"
             className="px-8 py-3 bg-foreground text-background rounded-full font-medium hover:opacity-90 transition-opacity"
           >
             Send Email
