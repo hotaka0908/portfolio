@@ -5,11 +5,11 @@ export default function Hero() {
         <p className="text-[var(--accent)] font-medium mb-4 tracking-wide">
           Hello, I&apos;m
         </p>
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-          船橋 穂天
-        </h1>
-        <p className="text-xl md:text-2xl text-[var(--muted)] mb-4">
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
           Hotaka Funabashi
+        </h1>
+        <p className="text-xl md:text-2xl text-[var(--muted)] mb-6">
+          船橋 穂天
         </p>
         <p className="text-lg text-[var(--muted)] max-w-xl mx-auto mb-10 leading-relaxed">
           ソフトウェアエンジニア / クリエイター
