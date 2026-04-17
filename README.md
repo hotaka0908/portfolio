@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hotaka Funahashi Portfolio
+
+船橋穂天のポートフォリオサイトです。
+
+## Live Site
+
+https://portfolio-five-pi-58.vercel.app
+
+## Tech Stack
+
+- **Framework**: Next.js 16
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+
+## Features
+
+- ミニマル・モダンなデザイン
+- ダークモード対応
+- レスポンシブデザイン
+- スムーススクロール
+- グラデーションホバーエフェクト
+
+## Sections
+
+- **Hero** - 名前、肩書き、所在地
+- **About** - 自己紹介とプロフィール写真
+- **Projects** - 制作物の紹介（リンク先アイコン付き）
+- **Skills** - Languages / Hardware / Frameworks
+- **Contact** - 連絡先リンク
+
+## Projects Featured
+
+| Project | Description | Link |
+|---------|-------------|------|
+| AI Necklace | 音声操作AIデバイス | X (Twitter) |
+| CopiChat | iOSチャットアプリ | App Store |
+| AIデバイス未来考察 | 技術書 | 技術書典 |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── globals.css    # Global styles & CSS variables
+│   ├── layout.tsx     # Root layout with Header/Footer
+│   └── page.tsx       # Main page
+└── components/
+    ├── Header.tsx     # Navigation with scroll effect
+    ├── Hero.tsx       # Hero section
+    ├── About.tsx      # About section with profile image
+    ├── Projects.tsx   # Projects with link icons
+    ├── Skills.tsx     # Skills grid
+    ├── Contact.tsx    # Contact section
+    └── Footer.tsx     # Footer
+```
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+**Hotaka Funahashi** (船橋穂天)
+- CEO of Universal Pine Inc.
+- Tokyo, Japan
+- Email: ho@universalpine.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
