@@ -5,7 +5,7 @@ export default function Contact() {
         <h2 className="text-3xl font-bold tracking-tight mb-4">Contact</h2>
         <div className="w-12 h-1 bg-[var(--accent)] mx-auto mb-8"></div>
         <p className="text-[var(--muted)] mb-10 max-w-md mx-auto leading-relaxed">
-          お仕事のご依頼やご質問などございましたら、お気軽にご連絡ください。
+          お気軽にご連絡ください。
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
