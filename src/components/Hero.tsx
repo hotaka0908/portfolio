@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
       <div className="max-w-3xl mx-auto text-center">
-        <p className="text-[var(--accent)] font-medium mb-4 tracking-wide">
+        <p className="text-yellow-500 font-medium mb-4 tracking-wide">
           Hello, I&apos;m
         </p>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
