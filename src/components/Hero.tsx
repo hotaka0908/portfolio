@@ -12,7 +12,7 @@ export default function Hero() {
           船橋 穂天
         </p>
         <p className="text-lg text-[var(--muted)] max-w-xl mx-auto mb-10 leading-relaxed">
-          CEO at Universal Pine Inc.
+          CEO of Universal Pine Inc.
         </p>
         <div className="flex items-center justify-center gap-4">
           <a
