@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "AIデバイス未来考察",
+    description:
+      "AIデバイスの未来について考察した技術書。技術書典にて販売中。",
+    tags: ["Book", "AI", "Tech"],
+    link: "https://techbookfest.org/product/tCb4D3eVDreK1iFQBStaFK?productVariantID=quupPuFcETjWSX8p8YtzMf",
+  },
+  {
     title: "AI Necklace",
     description:
       "喋ったら何でもできるAIデバイス。ウェアラブルなネックレス型AIアシスタント。",
