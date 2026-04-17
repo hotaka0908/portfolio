@@ -8,7 +8,8 @@
 2. コミット作成（日本語でOK）
 3. GitHubにプッシュ: `git push`
 
-Vercelと連携済みのため、プッシュすると自動デプロイされる。
+VercelとGitHubが連携済みのため、プッシュすると自動デプロイされる。
+（vercel git connect で連携設定済み）
 
 ## プロジェクト情報
 
