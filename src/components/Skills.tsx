@@ -5,7 +5,7 @@ const skills = [
   },
   {
     category: "Hardware",
-    items: ["Raspberry Pi", "M5Stack", "IoT", "Electronics"],
+    items: ["Raspberry Pi", "M5Stack", "Arduino", "IoT"],
   },
   {
     category: "Frameworks",
