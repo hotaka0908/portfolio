@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "AI Necklace",
+    description:
+      "喋ったら何でもできるAIデバイス。ウェアラブルなネックレス型AIアシスタント。",
+    tags: ["AI", "Hardware", "IoT"],
+    link: "https://x.com/hotaka_0908/status/2040723282677403945",
+  },
+  {
     title: "CopiChat",
     description:
       "あの人としゃべれるチャットアプリ。iOSアプリとしてApp Storeで公開中。",
