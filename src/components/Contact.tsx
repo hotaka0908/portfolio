@@ -1,3 +1,5 @@
+import Contributions from "@/components/Contributions";
+
 export default function Contact() {
   return (
     <section id="contact" className="py-32 px-6 bg-foreground/[0.02]">
@@ -23,14 +25,7 @@ export default function Contact() {
             <span>ho@agentmail.to</span>
           </a>
         </div>
-        <a
-          href="https://github.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-8 py-3 border border-[var(--border)] rounded-full font-medium hover:border-foreground transition-colors"
-        >
-          GitHub
-        </a>
+        <Contributions />
       </div>
     </section>
   );
