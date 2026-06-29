@@ -1,14 +1,5 @@
 const projects = [
   {
-    title: "VIBE FIGHT",
-    description:
-      "ブラウザで遊べる2D対戦格闘ゲーム。部屋コードでのオンライン対戦と世界ランキングを搭載。",
-    tags: ["Game", "Web", "Multiplayer"],
-    link: "https://wish-hub-hackathon.vercel.app",
-    linkType: "web",
-    linkLabel: "Play",
-  },
-  {
     title: "AI Necklace",
     description:
       "喋ったら何でもできるAIデバイス。ウェアラブルなネックレス型AIアシスタント。",
@@ -25,6 +16,15 @@ const projects = [
     link: "https://apps.apple.com/jp/app/copichat/id6754622028",
     linkType: "appstore",
     linkLabel: "App Store",
+  },
+  {
+    title: "VIBE FIGHT",
+    description:
+      "ブラウザで遊べる2D対戦格闘ゲーム。部屋コードでのオンライン対戦と世界ランキングを搭載。",
+    tags: ["Game", "Web", "Multiplayer"],
+    link: "https://wish-hub-hackathon.vercel.app",
+    linkType: "web",
+    linkLabel: "Play",
   },
   {
     title: "AIデバイス未来考察",
