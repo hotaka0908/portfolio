@@ -7,22 +7,30 @@ export default function Contact() {
         <p className="text-[var(--muted)] mb-10 max-w-md mx-auto leading-relaxed">
           お気軽にご連絡ください。
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 mb-6">
           <a
             href="mailto:ho@universalpine.com"
-            className="px-8 py-3 bg-foreground text-background rounded-full font-medium hover:opacity-90 transition-opacity"
+            className="flex flex-col items-center px-8 py-4 bg-foreground text-background rounded-2xl font-medium hover:opacity-90 transition-opacity"
           >
-            Send Email
+            <span className="text-sm opacity-70">本人宛</span>
+            <span>ho@universalpine.com</span>
           </a>
           <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-3 border border-[var(--border)] rounded-full font-medium hover:border-foreground transition-colors"
+            href="mailto:ho@agentmail.to"
+            className="flex flex-col items-center px-8 py-4 border border-[var(--border)] rounded-2xl font-medium hover:border-foreground transition-colors"
           >
-            GitHub
+            <span className="text-sm text-[var(--muted)]">AIエージェント宛</span>
+            <span>ho@agentmail.to</span>
           </a>
         </div>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-3 border border-[var(--border)] rounded-full font-medium hover:border-foreground transition-colors"
+        >
+          GitHub
+        </a>
       </div>
     </section>
   );
