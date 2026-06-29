@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "VIBE FIGHT",
+    description:
+      "ブラウザで遊べる2D対戦格闘ゲーム。部屋コードでのオンライン対戦と世界ランキングを搭載。",
+    tags: ["Game", "Web", "Multiplayer"],
+    link: "https://wish-hub-hackathon.vercel.app",
+    linkType: "web",
+    linkLabel: "Play",
+  },
+  {
     title: "AI Necklace",
     description:
       "喋ったら何でもできるAIデバイス。ウェアラブルなネックレス型AIアシスタント。",
@@ -40,6 +49,14 @@ const LinkIcon = ({ type }: { type: string }) => {
       return (
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.293 14.707a1 1 0 01-1.414 0L12 13.414l-2.879 2.879a1 1 0 01-1.414-1.414L10.586 12 7.707 9.121a1 1 0 011.414-1.414L12 10.586l2.879-2.879a1 1 0 011.414 1.414L13.414 12l2.879 2.879a1 1 0 010 1.414z" />
+        </svg>
+      );
+    case "web":
+      return (
+        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M2 12h20" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
       );
     case "book":
