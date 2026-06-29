@@ -18,6 +18,8 @@ const projects = [
     link: "https://apps.apple.com/jp/app/copichat/id6754622028",
     linkType: "appstore",
     linkLabel: "App Store",
+    image: "/copichat.png",
+    imageContain: true,
   },
   {
     title: "VIBE FIGHT",
@@ -37,6 +39,8 @@ const projects = [
     link: "https://techbookfest.org/product/tCb4D3eVDreK1iFQBStaFK?productVariantID=quupPuFcETjWSX8p8YtzMf",
     linkType: "book",
     linkLabel: "技術書典",
+    image: "/ai-device-book.png",
+    imageContain: true,
   },
 ];
 
@@ -92,12 +96,14 @@ export default function Projects() {
               <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/10 via-[var(--accent)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative z-10">
                 {project.image && (
-                  <div className="relative w-full aspect-video mb-4 overflow-hidden rounded-lg border border-[var(--border)]">
+                  <div className="relative w-full aspect-video mb-4 overflow-hidden rounded-lg border border-[var(--border)] bg-black/40">
                     <Image
                       src={project.image}
                       alt={project.title}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      className={`transition-transform duration-500 group-hover:scale-105 ${
+                        project.imageContain ? "object-contain" : "object-cover"
+                      }`}
                       sizes="(max-width: 768px) 100vw, 768px"
                     />
                   </div>
