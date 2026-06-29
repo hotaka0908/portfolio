@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const projects = [
   {
     title: "AI Necklace",
@@ -25,6 +27,7 @@ const projects = [
     link: "https://wish-hub-hackathon.vercel.app",
     linkType: "web",
     linkLabel: "Play",
+    image: "/vibe-fight.png",
   },
   {
     title: "AIデバイス未来考察",
@@ -88,6 +91,17 @@ export default function Projects() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/10 via-[var(--accent)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative z-10">
+                {project.image && (
+                  <div className="relative w-full aspect-video mb-4 overflow-hidden rounded-lg border border-[var(--border)]">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, 768px"
+                    />
+                  </div>
+                )}
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-[var(--accent)] transition-colors">
                   {project.title}
                 </h3>
