@@ -4,7 +4,7 @@
 
 ## Live
 
-https://portfolio-five-pi-58.vercel.app
+https://hotaka-portfolio.vercel.app
 
 ## Tech
 

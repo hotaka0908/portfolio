@@ -13,7 +13,7 @@ VercelとGitHubが連携済みのため、プッシュすると自動デプロ�
 
 ## プロジェクト情報
 
-- **サイト**: https://portfolio-five-pi-58.vercel.app
+- **サイト**: https://hotaka-portfolio.vercel.app
 - **リポジトリ**: https://github.com/hotaka0908/portfolio
 - **技術スタック**: Next.js + Tailwind CSS
 - **所有者**: 船橋穂天 (Hotaka Funabashi)
