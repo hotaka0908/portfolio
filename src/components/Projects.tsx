@@ -2,13 +2,15 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "AI Necklace",
+    title: "AI Necklace (Wiz)",
     description:
       "喋ったら何でもできるAIデバイス。ウェアラブルなネックレス型AIアシスタント。",
     tags: ["AI", "Hardware", "IoT"],
     link: "https://x.com/hotaka_0908/status/2040723282677403945",
     linkType: "x",
     linkLabel: "View on X",
+    image: "/ai-necklace.png",
+    imageContain: true,
   },
   {
     title: "CopiChat",
