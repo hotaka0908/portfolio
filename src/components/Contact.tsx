@@ -1,5 +1,3 @@
-import Contributions from "@/components/Contributions";
-
 export default function Contact() {
   return (
     <section id="contact" className="py-32 px-6 bg-foreground/[0.02]">
@@ -25,7 +23,6 @@ export default function Contact() {
             <span>ho@agentmail.to</span>
           </a>
         </div>
-        <Contributions />
       </div>
     </section>
   );
