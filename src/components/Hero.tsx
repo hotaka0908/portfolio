@@ -1,3 +1,5 @@
+import SlotName from "@/components/SlotName";
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
@@ -5,9 +7,7 @@ export default function Hero() {
         <p className="text-yellow-500 font-medium mb-4 tracking-wide">
           Hello, I&apos;m
         </p>
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
-          Hotaka Funahashi
-        </h1>
+        <SlotName />
         <p className="text-xl md:text-2xl text-[var(--muted)] mb-6">
           船橋 穂天
         </p>

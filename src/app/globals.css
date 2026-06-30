@@ -33,6 +33,25 @@
   scroll-behavior: smooth;
 }
 
+@keyframes slot-spin {
+  0% {
+    transform: translateY(-45%);
+  }
+  100% {
+    transform: translateY(45%);
+  }
+}
+
+.animate-slot {
+  animation: slot-spin 0.12s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-slot {
+    animation: none;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
