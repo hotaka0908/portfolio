@@ -65,7 +65,8 @@ export default function SlotName() {
                 ? "text-foreground"
                 : "text-[var(--accent)] blur-[1px] animate-slot"
             }`}
-            style={{ minWidth: "0.62em" }}
+            // 回転中だけ幅を固定して横揺れを防ぐ。確定後は本来の字幅に戻す。
+            style={settled ? undefined : { minWidth: "0.62em" }}
           >
             {ch}
           </span>
