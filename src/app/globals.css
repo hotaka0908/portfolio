@@ -33,21 +33,27 @@
   scroll-behavior: smooth;
 }
 
-@keyframes slot-spin {
-  0% {
-    transform: translateY(-45%);
+@keyframes name-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(0.4em);
+    filter: blur(6px);
   }
-  100% {
-    transform: translateY(45%);
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
   }
 }
 
-.animate-slot {
-  animation: slot-spin 0.12s linear infinite;
+.animate-name-reveal {
+  opacity: 0;
+  animation: name-reveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-slot {
+  .animate-name-reveal {
+    opacity: 1;
     animation: none;
   }
 }
